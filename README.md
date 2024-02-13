@@ -5,3 +5,6 @@
 
 1. crypt
    1. 암복호화 기능 테스트
+2. compare_db_tables
+   1. 두개의 db를 비교
+   2. 환경(dev, test, stage, prod 등)에 따른 db 테이블들을 비교하고자 만듬
