@@ -3,7 +3,10 @@
 - jdk 버전 : 17
 
 1. crypt
-   - 암복호화 기능 테스트
+   - 암복호화 기능
 2. compare_db_tables
    - 두개의 db를 비교
    - 환경(dev, test, stage, prod 등)에 따른 db 테이블들을 비교하고자 만듦
+3. change_int_byte
+   - Int, Byte 변환
+   - 
