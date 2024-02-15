@@ -22,7 +22,7 @@ public class ChangeIntByteArray {
 
         // 2. ByteArray To Int
         ConvertByteArrayToInt(result);
-
+        
     }
 
     /**

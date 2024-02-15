@@ -16,6 +16,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 public class CompateDbTables {
+    
+    // TODO: Db Connection Class는 따로 만들 예정
     public static void main(String[] args) {
         // Init DB Connection
         List<String> sameTables = new ArrayList<>();
@@ -43,6 +45,7 @@ public class CompateDbTables {
                     compareTables1.add(resultSet_1.getString("TABLE_NAME"));
                 }
             }
+
 
             // 비교 대상 2번 테이블 리스트 조회 및 비교 테이블 리스트 생성
             DatabaseConnectInfo databaseConnectInfo_2 = DatabaseConnectInfo.builder()
