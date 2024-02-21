@@ -19,4 +19,8 @@
    - CSV 파일을 읽는 기능 
 6. file_read_json
    - CSV 파일을 읽는 기능 
-7. 
+7. serialize
+   - 직렬화 테스트
+8. redis
+   - redis 테스트
+   - TODO: docker 설치 후 docker 환경의 redis를 연결할 것임
