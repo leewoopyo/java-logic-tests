@@ -24,3 +24,7 @@
 8. redis
    - redis 테스트
    - TODO: docker 설치 후 docker 환경의 redis를 연결할 것임
+9. socket
+   - 소켓 통신 테스트
+   - TCP 통신
+   - client, server
